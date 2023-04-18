@@ -8,6 +8,7 @@ export const WEBSITE_RETURN_ADDRESS = '1025 Industry Rd Harrodsburg, KY 40330, U
 export const WEBSITE_DESCRIPTOR = '8449263651piecesofchar';
 export const WEBSITE_FULFILLMENT = 'Fulfill Brokerage Inc.';
 
+
 let websiteName = document.querySelectorAll('.js_website-name');
 let websiteUrl = document.querySelectorAll('.js_website-url');
 let websiteCorp = document.querySelectorAll('.js_website-corp');
@@ -28,6 +29,16 @@ if(mainPageTitle) {
 }
 if(mainPageSubTitle) {
     mainPageSubTitle.textContent = SECONDARY_TAGLINE;
+}
+const mainPageSecondTitle = document.querySelector('.js_main-second-title');
+const mainPageSecondSubTitle = document.querySelector('.js_second-sub-title');
+const MAIN_SECOND_TAGLINE = 'Must have it? We’ve got it.';
+const SECONDARY_SECOND_TAGLINE = 'Online shopping is the best way to buy jewelry you need in two clicks.';
+if(mainPageSecondTitle) {
+    mainPageSecondTitle.textContent = MAIN_SECOND_TAGLINE;
+}
+if(mainPageSecondSubTitle) {
+    mainPageSecondSubTitle.textContent = SECONDARY_SECOND_TAGLINE;
 }
 
 

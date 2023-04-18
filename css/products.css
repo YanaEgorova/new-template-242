@@ -57,6 +57,10 @@
     margin: 0 auto;
     width: fit-content;
     background: var(--main-bg-color);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .product__img-box {
@@ -155,6 +159,11 @@
         background-color: var(--second-brand-color);
         color: var(--sub-text-color);
         border-color: var(--second-brand-color);
+    }
+
+
+    .swiper-slide {
+        height: auto !important;
     }
 }
 
