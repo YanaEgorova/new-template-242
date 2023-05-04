@@ -57,11 +57,9 @@
     margin: 0 auto;
     width: fit-content;
     background: var(--main-bg-color);
-<<<<<<< Updated upstream
-    height: 100%;
-=======
+
     height: calc(100% - 5rem);
->>>>>>> Stashed changes
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
