@@ -12,7 +12,7 @@
     background-color: var(--second-brand-color);
     width: fit-content;
     padding: 3rem ;
-    max-width: 60rem;
+    max-width: 65rem;
     margin: 0 auto;
 }
 .hero .title {
@@ -98,7 +98,7 @@
 }
 .phrase .text {
     margin: 0 auto 3rem;
-    max-width: 45rem;
+    max-width: 60rem;
 }
 .phrase__img {
     display: block;
