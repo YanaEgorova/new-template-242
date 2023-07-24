@@ -2,12 +2,11 @@
   background-color: var(--first-brand-color);
 }
 .footer {
-    padding: 3rem 0;
+  padding: 3rem 0;
 }
 .footer__title {
   margin-bottom: 2rem;
   font-size: 1.8rem;
-  font-family: var(--title-font);
 }
 
 .footer__icon {
@@ -16,14 +15,15 @@
   height: 3rem;
   margin-right: 1rem;
 }
-.footer__link, .footer .text {
+.footer__link,
+.footer .text {
   font-size: 1.8rem;
   position: relative;
 }
 .footer__link::after {
   display: block;
   content: '';
-  bottom: -.1rem;
+  bottom: -0.1rem;
   left: 0;
   position: absolute;
   height: 0.1rem;
@@ -63,7 +63,4 @@
   .footer__block--rg {
     text-align: right;
   }
-
-
-  
 }

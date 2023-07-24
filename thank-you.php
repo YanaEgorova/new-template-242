@@ -18,9 +18,6 @@
             <header class="header">
     
               <div class="header__flex">
-                <button class="header__btn js_menu-btn">
-                  <span></span>
-                </button>
                 <a href="./index.html" class="header__logo logo js_website-name">website name</a>
                 <a href="./shop.html" class="cart__btn">
                   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -44,28 +41,7 @@
                 </a> 
               </div>
     
-              <nav class="nav js_menu">
-                <ul class="nav__list">
-                  <li class="nav__item">
-                    <a href="./contacts.html" class="nav__link">Contact Us</a>
-                  </li>
-                  <li class="nav__item">
-                    <a href="./privacy.html" class="nav__link">Privacy Notice</a>
-                  </li>
-                  <li class="nav__item">
-                    <a href="./purchase.html" class="nav__link">Terms of Purchase</a>
-                  </li>
-                  <li class="nav__item">
-                    <a href="./return.html" class="nav__link">Return Policy</a>
-                  </li>
-                  <li class="nav__item">
-                    <a href="./shipping.html" class="nav__link">Shipping Policy</a>
-                  </li>
-                  <li class="nav__item">
-                    <a href="./use.html" class="nav__link">Terms of Use</a>
-                  </li>
-                </ul>
-              </nav>
+            
             </header>
           </div>
         </div>
@@ -151,7 +127,7 @@
                     <p class="text text--mb js_website-corp"></p>
                   </li>
                   <li class="item">
-                    <span class="footer__span">© All rights reserved</span>
+                    <span class="text">© All rights reserved</span>
                   </li>
                 </ul>
               </div>
@@ -161,23 +137,22 @@
         </div>
       </footer>
       <div class="container">
-        <p style="padding-top: 16px; font-size: 12px; margin-bottom: 2rem;">*Any statements on this site or any materials or supplements distributed or sold by <span class="js_website-name"></span> has not been evaluated by the Food and Drug Administration (FDA). This product is not intended to diagnose, treat, cure or prevent any disease. If you are pregnant, nursing, taking medication, or have a history of heart conditions we suggest consulting with a physician before using any of our products. The results on all products are not typical and not everyone will experience these results.</p>
-      </div>
+          <p style="padding-top: 16px; margin-bottom: 2rem" class="text">
+            *Any statements on this site or any materials or supplements distributed or sold by
+            <span class="js_website-name"></span> has not been evaluated by the Food and Drug Administration (FDA). This
+            product is not intended to diagnose, treat, cure or prevent any disease. If you are pregnant, nursing,
+            taking medication, or have a history of heart conditions we suggest consulting with a physician before using
+            any of our products. The results on all products are not typical and not everyone will experience these
+            results.
+          </p>
+        </div>
     </div>
   </div>
 
   <script type='text/javascript' src='https://thebestproductmanager.com/products/prices-nxg-object'></script>
   <script type="module" src="./js/on-load.js"></script>
   <script type="module" src="./js/website-data.js"></script> 
-  <script>
-    const menuBtn = document.querySelector('.js_menu-btn');
-    const menu = document.querySelector('.js_menu');
-    menuBtn.addEventListener('click', () => {
-      menuBtn.classList.toggle('active');
-      menu.classList.toggle('open-menu');
-      document.body.classList.toggle('open-menu');
-    })
-  </script>
+
 </body>
 
 </html>
